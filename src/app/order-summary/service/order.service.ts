@@ -16,7 +16,7 @@ export class OrderService {
  httpOptions = {
     headers: new HttpHeaders({
       'Content-Type':'text/plain',
-      'Access-Control-Allow-Origin': 'http://localhost:4200' // Replace with your Angular app URL
+      'Access-Control-Allow-Origin': K8ExternalIp  // Replace with your Angular app URL
     })
   };
 
